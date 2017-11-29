@@ -36,7 +36,7 @@ lazy val mimaSettings = mimaDefaultSettings ++ Seq(
 lazy val commonSettings = mimaSettings ++ Seq(
   organization := "com.typesafe.play",
   scalaVersion := "2.12.3",
-  crossScalaVersions := Seq("2.12.3", "2.11.11"),
+  crossScalaVersions := Seq("2.12.3", "2.11.11", "2.13.0-M2"),
   scalacOptions in (Compile, doc) ++= Seq(
     "-target:jvm-1.8",
     "-deprecation",

@@ -10,7 +10,7 @@ object Dependencies {
 
   val awaitility = Seq("org.awaitility" % "awaitility" % "3.0.0")
 
-  val specsVersion = "3.8.6"
+  val specsVersion = "4.0.1"
   val specsBuild = Seq(
     "specs2-core",
     "specs2-junit",
@@ -23,7 +23,7 @@ object Dependencies {
 
   val scalaJava8Compat = Seq("org.scala-lang.modules" %% "scala-java8-compat" % "0.8.0")
 
-  val playJsonVersion = "2.6.0"
+  val playJsonVersion = "2.7.0-SNAPSHOT"
   val playJson = Seq("com.typesafe.play" %% "play-json" % playJsonVersion)
 
   val slf4jApi = Seq("org.slf4j" % "slf4j-api" % "1.7.25")
@@ -39,15 +39,15 @@ object Dependencies {
   val signpostVersion = "1.2.1.2"
   val oauth = Seq("oauth.signpost" % "signpost-core" % signpostVersion)
 
-  val cachecontrolVersion = "1.1.2"
+  val cachecontrolVersion = "1.1.1-SNAPSHOT"
   val cachecontrol = Seq("com.typesafe.play" %% "cachecontrol" % cachecontrolVersion)
 
   val asyncHttpClientVersion = "2.0.36"
   val asyncHttpClient = Seq("org.asynchttpclient" % "async-http-client" % asyncHttpClientVersion)
 
-  val akkaVersion = "2.5.3"
+  val akkaVersion = "2.5-SNAPSHOT"
   val akkaStreams = Seq("com.typesafe.akka" %% "akka-stream" % akkaVersion)
-  val akkaHttp = Seq("com.typesafe.akka" %% "akka-http" % "10.0.8")
+  val akkaHttp = Seq("com.typesafe.akka" %% "akka-http" % "10.0.10+55-8b279c15+20171016-1731")
 
   val reactiveStreams = Seq("org.reactivestreams" % "reactive-streams" % "1.0.0")
 
